@@ -12,8 +12,8 @@ You must write an algorithm with `O(log n)` runtime complexity.
 
 **Example 2:**
 <pre>
-<b>Input:/<b> nums = [3,2,4], target = 6
-<b>Output:/<b> [1,2]
+<b>Input:</b> nums = [3,2,4], target = 6
+<b>Output:</b> [1,2]
 </pre>
 
 **Example 3:**

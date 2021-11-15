@@ -32,7 +32,16 @@ public class Solution extends VersionControl {
             
             		// else contract, go left but don't do mid-1, as mid may be the last bad version
             		else end = mid;
-			// if you add an early terminate code (check mid-1  is bad version directly) its actually 3 ms slower
+			// if you add an early terminate code (check mid-1  is bad version directly) its somehow 3 ms slower on leetcode
+			// probably because of the test case design on leetcode, theoretically this should be better
+       			/* Something like this
+			 else {
+                                if (mid!=1 && !isBadVersion(mid-1)) {
+                                        return mid;
+                                }
+                                end = mid;
+                        }
+			*/
         	}
 
 		// return start as you want the first/smallest possible bad version

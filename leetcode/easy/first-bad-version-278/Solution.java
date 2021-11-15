@@ -10,7 +10,7 @@ Binary search problem with floating target and overflow problem
 
 Generally in binary search you have >target, <target or == target
 but since this problem has "floating" target or you can't directly ==
-you have to 
+you have to do do the Binary Search, until condition satisfied
 
  */
 

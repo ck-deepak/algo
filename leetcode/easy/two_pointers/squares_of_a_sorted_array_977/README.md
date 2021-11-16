@@ -1,4 +1,4 @@
-Given an integer array `nums` sorted in *non-decreasing* order, return _an array of the *squares of each number* sorted in non-decreasing order._
+Given an integer array `nums` sorted in *non-decreasing* order, return _an array of the **squares of each number** sorted in non-decreasing order._
 
 **Example 1:**
 

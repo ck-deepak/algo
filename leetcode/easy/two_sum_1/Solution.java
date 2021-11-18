@@ -13,8 +13,9 @@ class Solution {
 		for (int i=0; i<nums.length; i++) {
 			int complement = target - nums[i];
 			if (map.containsKey(complement)) {
-				// result[0] = i;
-				// result[1] = map.get(complement);
+				// the complement is the first index
+				// result[0] = map.get(complement);
+				// result[1] = i
 				// return result;
 
 				return new int[] { map.get(complement), i };

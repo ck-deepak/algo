@@ -1,7 +1,7 @@
 
 /*
- Time complexity : 
- Space complexity:
+ Time complexity : O(N)
+ Space complexity: O(N)
 
 Takes advantage of the fact that all ascii characters have a unique int value
 

@@ -41,6 +41,6 @@ Output: 2
 </pre>
 
 **Constraints:**
-- 3 <= arr.length <= 104
-- 0 <= arr[i] <= 106
+- 3 <= arr.length <= 10^4
+- 0 <= arr[i] <= 10^6
 - arr is guaranteed to be a mountain array.

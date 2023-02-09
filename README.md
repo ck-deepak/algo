@@ -1,3 +1,3 @@
-This repository is to track coding algorithms and data structures from:
+This repository tracks algorithms and data structures from:
 - LeetCode
 - Open Kattis
